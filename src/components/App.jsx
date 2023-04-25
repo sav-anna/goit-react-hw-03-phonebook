@@ -9,6 +9,7 @@ class App extends Component {
     contacts: [],
     filter: '',
   };
+
   componentDidMount() {
     const contacts = localStorage.getItem('contacts');
     const parseContacts = JSON.parse(contacts);
