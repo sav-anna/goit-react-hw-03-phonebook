@@ -1,0 +1,12 @@
+@import 'src/styles/shared.scss';
+.contactList {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px;
+
+  min-width: 400px;
+  max-width: 600px;
+  border: 1px solid $brand-color;
+}

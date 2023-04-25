@@ -1,0 +1,35 @@
+@import 'src/styles/shared.scss';
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+
+  &__title {
+    font-size: 40px;
+    font-weight: 600;
+    color: $brand-color;
+    margin: 0;
+  }
+  &__label {
+    color: $accent-color;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  &__input {
+    margin-left: 20px;
+    height: 20px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid $brand-color;
+    font-size: 30px;
+    color: $input;
+    &::placeholder {
+      font-size: 20px;
+    }
+  }
+}
